@@ -5,11 +5,10 @@
 
     <h2>NICU CARES</h2>
 
-    <p id="demo">The purpose of this project is to provide a tool for neonatologists to reference care plans based on
+    <p id="demo">The purpose of this application is to provide a tool for neonatologists to reference care plans based on
         gestational age and weights of premature infants.</p>
 
     <p>Choose desired gestational age and birth weight</p>
-<br>
 <br>
     <label for="gestational_age">Select Gestational Age:</label>
     <select id="gestational_age" name="gestational_age">
@@ -18,7 +17,17 @@
         <option value="2">29+0-30+6w</option>
         <option value="3">31+0-31+6w</option>
         <option value="4">32+0-32+6w</option>
-        <option value="5">>=33+0w</option>
+        <option value="5">&gt;=33+0w</option>
+       
+    </select>
+<br>
+    <label for="birth_weight">Select Birth Weight:</label>
+    <select id="birth_weight" name="birth_weight">
+        <option value="0">&lt;1250g</option>
+        <option value="1">1251-1500g</option>
+        <option value="2">1501-1800g</option>
+        <option value="3">1801-2000g</option>
+        <option value="4">2001-2200g</option>
        
     </select>
 
