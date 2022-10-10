@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
+
 <body>
 
-<h2>NICU CARES</h2>
+    <h2>NICU CARES</h2>
 
-<p id="demo">The purpose of this project is to provide a tool for neonatologists to reference care plans based on gestational age and weights of premature infants.</p>
+    <p id="demo">The purpose of this project is to provide a tool for neonatologists to reference care plans based on
+        gestational age and weights of premature infants.</p>
 
-<button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+
+    <label for="gestational_age">Select Gestational Age:</label>
+    <select id="gestational_age" name="gestational_age">
+        <option value="0">&lt;27+6w</option>
+        <option value="1">28+0-28+6w</option>
+        <option value="2">29+0-30+6w</option>
+        <option value="3">31+0-31+6w</option>
+        <option value="4">32+0-32+6w</option>
+        <option value="5">>=33+0w</option>
+       
+    </select>
 
 </body>
+
 </html>
